@@ -13,6 +13,10 @@ progress,sub,sup{vertical-align:baseline}html{font-family:'Titillium Web', sans-
   margin: 0 15px;
 }
 
+.section ul {
+  margin: 0px;
+}
+
 .section li {
   list-style: none;
 }
@@ -26,7 +30,9 @@ h1 {
 h2 {
   font-family: 'Amaranth', sans-serif;
   font-weight: 400;
-  font-size:  1.777em ;  
+  font-size:  1.777em;
+
+  margin: 10px 0;
 }
 
 p {
