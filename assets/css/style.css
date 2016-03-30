@@ -3,6 +3,7 @@ progress,sub,sup{vertical-align:baseline}html{font-family:'Titillium Web', sans-
 
 body {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .container {
