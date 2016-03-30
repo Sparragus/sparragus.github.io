@@ -1,0 +1,44 @@
+body {
+  margin-top: 5vh;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+
+}
+
+.column {
+  flex: 0 1 490px;
+
+  margin: 0 20px;
+}
+
+h1 {
+  font-family: 'Amaranth', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+p {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+p.lead {
+  font-weight: 200;
+  font-size: 21px;
+}
+
+strong {
+  font-weight: 400;
+}
+
+a:link, a:visited   {
+  text-decoration: underline dotted #ed146f;
+  font-weight: 700;
+  color: black;
+}
