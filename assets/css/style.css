@@ -1,19 +1,19 @@
-body {
-  margin-top: 5vh;
-}
-
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
-
 }
 
 .column {
   flex: 0 1 490px;
+  margin: 0 15px;
+}
 
-  margin: 0 20px;
+@media (max-width: 1000px) {
+  .column {
+    flex: 0 1 100%;
+  }
 }
 
 h1 {
