@@ -4,6 +4,8 @@ progress,sub,sup{vertical-align:baseline}html{font-family:'Titillium Web', sans-
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+
+  color: #464b53;
 }
 
 .container {
@@ -72,7 +74,11 @@ strong {
 
 a:link, a:visited   {
   text-decoration: underline dotted #ed146f;
-  color: blue;
+  color: #7fadf2;
+}
+
+a:hover {
+  color: #3f81e3;
 }
 
 /*! Small Screens like mobile phones*/
